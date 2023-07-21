@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
 </head>
+
 <body>
-    
+    <!-- Left Side -->
+    <div class="split left-side">
+        <section class="left-image">
+            <div class="logo1">
+                <img src="odin-logo.png" alt="odin-logo" class="logo">
+                <label for="odin-logo" class="logo-text">ODIN</label>
+            </div>
+        </section>
+
+        <!-- <p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
+        <p class='exciting-paragraph'>Lorem ipsum dolor sit amet.</p>        -->
+    </div>
+    <!-- Right Side -->
+    <div class="split right-side">
+        <h2>Welcome to the Sign Up Form !</h2>
+        <section class="opening">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+        </section>
+
+        <h2>Let's do this!</h2><hr>
+        <section class="sign-up-form">
+            <table class="form-grid">
+                <tr>
+                    <td>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </td>
+                    <td>
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </td>
+                    <td>
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" id="phone_number" name="phone_number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="user_password" name="password" minlength="8" required>
+                    </td>
+                    <td>
+                        <label for="confirm_pw">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_pw" name="confirm_pw" minlength="8" required>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="another-info">
+            <button type="submit" class="create-button">Create Account</button>
+            <p>Already have an account? Log in</p>
+        </section>
+
+    </div>
+
+
 </body>
+
 </html>
