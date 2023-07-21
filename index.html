@@ -13,9 +13,9 @@
     <!-- Left Side -->
     <div class="split left-side">
         <section class="left-image">
-            <div class="logo1">
+            <div class="logo-section">
                 <img src="odin-logo.png" alt="odin-logo" class="logo">
-                <label for="odin-logo" class="logo-text">ODIN</label>
+                <span class="logo-text"></span>
             </div>
         </section>
 
@@ -24,56 +24,50 @@
     </div>
     <!-- Right Side -->
     <div class="split right-side">
-        <h2>Welcome to the Sign Up Form !</h2>
-        <section class="opening">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize
-                your deepest dreams.</p>
-            <p>Sign up <em>now</em> to get started.</p>
-        </section>
-
-        <h2>Let's do this!</h2><hr>
+        <span class="headline">Sign up. It's free.</span>
+        <hr>
         <section class="sign-up-form">
-            <table class="form-grid">
-                <tr>
-                    <td>
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name" required>
-                    </td>
-                    <td>
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
-                    </td>
-                    <td>
-                        <label for="phone_number">PHONE NUMBER</label>
-                        <input type="tel" id="phone_number" name="phone_number" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="user_password" name="password" minlength="8" required>
-                    </td>
-                    <td>
-                        <label for="confirm_pw">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_pw" name="confirm_pw" minlength="8" required>
-                    </td>
-                </tr>
-            </table>
+            <form action="#">
+                <table class="form-table">
+                    <tr>
+                        <td>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Anna" required>
+                        </td>
+                        <td>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="K" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+                        </td>
+                        <td>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" id="phone_number" name="phone_number" placeholder="+62-812-123-345"
+                                required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                            <input type="password" id="user_password" name="password" minlength="8" required>
+                        </td>
+                        <td>
+                            <label for="confirm_pw">Confirm Password</label>
+                            <input type="password" id="confirm_pw" name="confirm_pw" minlength="8" required>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" class="create-button">Create Account</button>
+            </form>
         </section>
         <section class="another-info">
-            <button type="submit" class="create-button">Create Account</button>
-            <p>Already have an account? Log in</p>
+            <h4>Already have an account? <a href="#">Log in</a></h4>
         </section>
-
     </div>
-
-
 </body>
 
 </html>
