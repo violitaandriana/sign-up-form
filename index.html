@@ -46,18 +46,21 @@
                         </td>
                         <td>
                             <label for="phone_number">Phone Number</label>
-                            <input type="tel" id="phone_number" name="phone_number" placeholder="+62-812-123-345"
+                            <input type="text" id="phone_number" name="phone_number" placeholder="+62812123345"
                                 required>
+                            <span class="check-number" id="check_number"></span>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <label for="password">Password</label>
-                            <input type="password" id="user_password" name="password" minlength="8" required>
+                            <input type="password" id="user_password" name="password" required>
+                            <span class="check-password" id="check_password"></span>
                         </td>
                         <td>
-                            <label for="confirm_pw">Confirm Password</label>
-                            <input type="password" id="confirm_pw" name="confirm_pw" minlength="8" required>
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required> 
+                            <span class="check-password" id="check_confirm_password"></span>
                         </td>
                     </tr>
                 </table>
@@ -69,5 +72,6 @@
         </section>
     </div>
 </body>
+<script src="script.js"></script>
 
 </html>
