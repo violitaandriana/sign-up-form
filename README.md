@@ -1,4 +1,4 @@
 # Sign-up Form
-Project: Sign-up Form
-Intermediate HTML and CSS Course
+Project: Sign-up Form <br>
+Intermediate HTML and CSS Course <br>
 From Odin Project
