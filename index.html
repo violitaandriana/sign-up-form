@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+</head>
+
+<body>
+    <!-- Left Side -->
+    <div class="split left-side">
+        <section class="left-image">
+            <div class="logo-section">
+                <img src="odin-logo.png" alt="odin-logo" class="logo">
+                <span class="logo-text"></span>
+            </div>
+        </section>
+
+        <!-- <p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
+        <p class='exciting-paragraph'>Lorem ipsum dolor sit amet.</p>        -->
+    </div>
+    <!-- Right Side -->
+    <div class="split right-side">
+        <span class="headline">Sign up. It's free.</span>
+        <hr>
+        <section class="sign-up-form">
+            <form action="#">
+                <table class="form-table">
+                    <tr>
+                        <td>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Anna" required>
+                        </td>
+                        <td>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="K" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+                        </td>
+                        <td>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" id="phone_number" name="phone_number" placeholder="+62812123345"
+                                required>
+                            <span class="check-number" id="check_number"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                            <input type="password" id="user_password" name="password" required>
+                            <span class="check-password" id="check_password"></span>
+                        </td>
+                        <td>
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required> 
+                            <span class="check-password" id="check_confirm_password"></span>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" class="create-button">Create Account</button>
+            </form>
+        </section>
+        <section class="another-info">
+            <h4>Already have an account? <a href="#">Log in</a></h4>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
